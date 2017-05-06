@@ -2,7 +2,6 @@ package com.example.marcin.wegrzyn.quizapp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -13,7 +12,6 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String TAG = "test";
     private boolean [] answer = new boolean[4];
 
     RadioButton firstRadioBtn;
@@ -49,11 +47,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 check();
                 showScore();
-                Log.d(TAG,"-------->");
-                Log.d(TAG,String.valueOf(answer[0]));
-                Log.d(TAG,String.valueOf(answer[1]));
-                Log.d(TAG,String.valueOf(answer[2]));
-                Log.d(TAG,String.valueOf(answer[3]));
             }
         });
 
@@ -83,8 +76,6 @@ public class MainActivity extends AppCompatActivity {
             if (answer[i]) score ++;
             else textToshow +=getString(R.string.answ_nr)+String.valueOf(i+1)+getString(R.string.not_correct)+nl;
         }
-        Log.d(TAG,String.valueOf(score));
-
         textToshow+=nl+getString(R.string.result_is)+String.valueOf(score)+getString(R.string.for_for)+nl;
         submitTextView.setText(textToshow);
 
