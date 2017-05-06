@@ -19,4 +19,10 @@
     <string name="submit_answer">Submit answer</string>
     <string name="answer">Answer</string>
     <string name="turbo_image" translatable="false">turbo image</string>
+    <string name="turbocharger" translatable="false">turbocharger</string>
+    <string name="awesome">Awesome all correct answers !!!</string>
+    <string name="result_is">Your result is:</string>
+    <string name="answ_nr">answer nr:</string>
+    <string name="not_correct">is not correct</string>
+    <string name="for_for">/4</string>
 </resources>

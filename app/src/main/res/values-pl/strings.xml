@@ -19,4 +19,8 @@
     <string name="true_word">Prawda</string>
     <string name="turbo_image"></string>
     <string name="two_quest">2.Które z następujących części posiada silnik ?</string>
+    <string name="result_is">Twój wynik to</string>
+    <string name="not_correct">jest nieprawidłowa</string>
+    <string name="awesome">Wspaniale wszystkie odpowiedzi są poprawne !!!</string>
+    <string name="answ_nr">odpowiedź nr:</string>
 </resources>

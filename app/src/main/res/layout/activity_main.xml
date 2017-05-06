@@ -26,6 +26,7 @@
                 android:textAppearance="?android:textAppearanceSmall" />
 
             <RadioButton
+                android:id="@+id/firstQclick"
                 style="@style/answer_style"
                 android:text="@string/b_power_stroke"
                 android:textAppearance="?android:textAppearanceSmall" />
@@ -46,18 +47,22 @@
             android:text="@string/two_quest" />
 
         <CheckBox
+            android:id="@+id/firstCheckBox"
             style="@style/answer_style"
             android:text="@string/int_mainfold" />
 
         <CheckBox
+            android:id="@+id/secondCheckBox"
             style="@style/answer_style"
             android:text="@string/cyl_head" />
 
         <CheckBox
+            android:id="@+id/fourthCheckBox"
             style="@style/answer_style"
             android:text="@string/prop_shaft" />
 
         <CheckBox
+            android:id="@+id/fifthCheckBox"
             style="@style/answer_style"
             android:text="@string/crankshaft" />
 
@@ -73,6 +78,7 @@
             android:contentDescription="@string/turbo_image" />
 
         <EditText
+            android:id="@+id/editText"
             style="@style/answer_style"
             android:hint="@string/fill_in_the_gap" />
 
@@ -91,21 +97,26 @@
                 android:textAppearance="?android:textAppearanceSmall" />
 
             <RadioButton
+                android:id="@+id/secondRadioBtn"
                 style="@style/answer_style"
                 android:text="@string/false_word"
                 android:textAppearance="?android:textAppearanceSmall" />
         </RadioGroup>
 
         <Button
+            android:id="@+id/subminBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:text="@string/submit_answer" />
 
         <TextView
+            android:id="@+id/submTextV"
+            android:textSize="16dp"
+            android:layout_gravity="end"
+            android:padding="8dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/answer" />
+            android:layout_height="wrap_content" />
 
 
     </LinearLayout>
