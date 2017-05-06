@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/question_header_style"
+            android:text="@string/first_quest" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                style="@style/answer_style"
+                android:text="@string/int_stroke"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <RadioButton
+                style="@style/answer_style"
+                android:text="@string/b_power_stroke"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <RadioButton
+                style="@style/answer_style"
+                android:text="@string/comp_stroke"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <RadioButton
+                style="@style/answer_style"
+                android:text="@string/ext_stroke"
+                android:textAppearance="?android:textAppearanceSmall" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/question_header_style"
+            android:text="@string/two_quest" />
+
+        <CheckBox
+            style="@style/answer_style"
+            android:text="@string/int_mainfold" />
+
+        <CheckBox
+            style="@style/answer_style"
+            android:text="@string/cyl_head" />
+
+        <CheckBox
+            style="@style/answer_style"
+            android:text="@string/prop_shaft" />
+
+        <CheckBox
+            style="@style/answer_style"
+            android:text="@string/crankshaft" />
+
+        <TextView
+            style="@style/question_header_style"
+            android:text="@string/three_quest" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:background="@drawable/turbo"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/turbo_image" />
+
+        <EditText
+            style="@style/answer_style"
+            android:hint="@string/fill_in_the_gap" />
+
+        <TextView
+            style="@style/question_header_style"
+            android:text="@string/four_quest" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                style="@style/answer_style"
+                android:text="@string/true_word"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <RadioButton
+                style="@style/answer_style"
+                android:text="@string/false_word"
+                android:textAppearance="?android:textAppearanceSmall" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/submit_answer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/answer" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

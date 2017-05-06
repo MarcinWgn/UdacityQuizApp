@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="quiz" translatable="false">Mini Car Tech Quiz</string>
+    <string name="first_quest">1.What is the third stroke in a Petrol engine ?</string>
+    <string name="int_stroke">A. Intake Stroke</string>
+    <string name="b_power_stroke">B. Power Stroke</string>
+    <string name="comp_stroke">C. Compression Stroke</string>
+    <string name="ext_stroke">D. Exhaust Stroke</string>
+    <string name="two_quest">2. Which are following are part of the Engine assembly ?</string>
+    <string name="int_mainfold">A. intake manifold</string>
+    <string name="cyl_head">B. cylinder head</string>
+    <string name="prop_shaft">C. Propeller Shaft</string>
+    <string name="crankshaft">D. Crankshaft</string>
+    <string name="three_quest">3.What is this ?</string>
+    <string name="fill_in_the_gap">Fill in the gap</string>
+    <string name="four_quest">4. Spark Plug is a part of the Diesel Engine ?</string>
+    <string name="true_word">True</string>
+    <string name="false_word">False</string>
+    <string name="submit_answer">Submit answer</string>
+    <string name="answer">Answer</string>
+    <string name="turbo_image" translatable="false">turbo image</string>
+</resources>

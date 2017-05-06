@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="answer">Odpowiedź</string>
+    <string name="b_power_stroke">Praca</string>
+    <string name="comp_stroke">C. Sprężanie</string>
+    <string name="crankshaft">D. Wał korbowy</string>
+    <string name="cyl_head">B. Głowica Cylindrów</string>
+    <string name="ext_stroke">D. Wydech</string>
+    <string name="false_word">Fałsz</string>
+    <string name="fill_in_the_gap">Wypełnij</string>
+    <string name="first_quest">1. Jaki jest trzeci suw pracy silnika spalinowego ?</string>
+    <string name="four_quest">4. Czy silnik Diesla posiada świecę zapłonową ?</string>
+    <string name="int_mainfold">A. Kolektor dolotowy</string>
+    <string name="int_stroke">A. Suw ssania</string>
+    <string name="prop_shaft">C.Wał napędowy</string>
+    <string name="submit_answer">Sprawdź odpowiedzi</string>
+    <string name="three_quest">3.Co to jest ?</string>
+    <string name="true_word">Prawda</string>
+    <string name="turbo_image"></string>
+    <string name="two_quest">2.Które z następujących części posiada silnik ?</string>
+</resources>
