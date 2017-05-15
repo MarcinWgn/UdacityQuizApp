@@ -77,7 +77,9 @@ public class MainActivity extends AppCompatActivity {
             else textToshow +=getString(R.string.answ_nr)+String.valueOf(i+1)+getString(R.string.not_correct)+nl;
         }
         textToshow+=nl+getString(R.string.result_is)+String.valueOf(score)+getString(R.string.for_for)+nl;
+
         submitTextView.setText(textToshow);
+        Toast.makeText(getBaseContext(),textToshow, Toast.LENGTH_LONG).show();
 
         if(score == answer.length)
             Toast.makeText(getBaseContext(), R.string.awesome,Toast.LENGTH_LONG).show();
